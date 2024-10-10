@@ -1,0 +1,49 @@
+
+
+/* this targets the body to change font family and font size */
+body {
+    font-family: Arial, sans-serif; /* You can change to any preferred font */
+    font-size: 18px;
+}
+/* this rule set selects both header and footer elements and apply the same background color */
+header, footer {
+    background-color: #333; /* You can replace this with any color you prefer */
+    color: white; /* This is optional but makes the text more readable on dark backgrounds */
+    padding: 10px; /* Optional padding for a nicer layout */
+}
+/* Class selector for the main heading and color */
+.site-title {
+    color: beige; 
+}
+/* ID selector for the image */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black; /*Adds a shadow with the given specifications */
+}
+/* this rule set will replace bullets with squares in the hobbies list */
+ul {
+    list-style-type: square;
+}
+/* this nth-child rule set adds background color to odd list items in the hobby list */
+ul li:nth-child(odd) {
+    background-color: lightgray; 
+}
+
+/* Remove the underline from the links */
+nav a {
+    text-decoration: none; /* No underline */
+    background-color: #f0f0f0; /* Background color for links */
+    border: 2px solid #ccc; /* Border around the links */
+    padding: 10px; /* padding for space */
+    color: #333; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between links */
+}
+
+/* the background color changes on hover or focus */
+nav a:hover, nav a:focus {
+    background-color: #333; /* Dark background on hover */
+    color: white; /* White text on hover */
+    border-color: #666; /* Change border color */
+}
+
+

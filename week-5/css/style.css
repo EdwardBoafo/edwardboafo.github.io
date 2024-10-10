@@ -1,0 +1,55 @@
+
+header{
+    background-color:black;
+    padding: 1rem;
+    margin: 2rem;
+}
+h1{
+    color: white;
+}
+/* command forward slash will intiate a comment */
+
+/* target h1 h2 h3 */
+h1,h2,h3{
+
+
+
+    text-decoration: underline;
+}
+/* target all para on the page */
+p{
+    font-weight: 600;
+}
+/* target para within a div */
+div p{
+    font-weight: 200;
+    /* when targetting a class we need . */
+}
+#test{
+    background-color: aqua;
+}
+.goals{
+    color: coral;
+    background-color: deeppink;
+}
+.highlight{
+    background-color: yellow;
+}
+
+/* when targeting an id we use # */
+#explain{
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+li:nth-child(even){
+    background-color: chartreuse;
+}
+
+li:nth-child(odd){
+    background-color:red;
+}
+li:nth-child(3){
+    background-color: beige;
+
+}
