@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Sixtyfour+Convergence&display=swap');
+
+html{
+    font-size: 20px;
+}
+h1{text-transform: uppercase;}
+
+body{
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    background-color: bisque;
+}
+
+body{font-family: "Sixtyfour Convergence", sans-serif;
+}
+header{
+    background-color: black;
+    color: bisque;
+    padding: 5rem;
+    background-image: url("../images/bread.jpg");
+    background-repeat: no-repeat;
+    background-position: 20px 40px;
+    
+
+}
+li{
+    /*px, rem or em*/
+    font-size: 1.2;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
