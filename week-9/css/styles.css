@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header,footer{
+    min-height: 100px;
+    background-color: blueviolet;
+}
+main{
+    min-height: 400px;
+    background-color: aquamarine;
+}
+
+@media screen and (min-width:650px){
+    header,footer{
+        background-color: brown;
+    }
+    main{
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 651px) and (max-width:900px){
+header,footer{
+    background-color: chartreuse;
+}
+main div{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Creative-Tail-Animal-mouse.svg/128px-Creative-Tail-Animal-mouse.svg.png);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+}
+}
